@@ -1,5 +1,7 @@
 from src.app import *
-"""Запуск программы"""
+"""Запуск программыs"""
 
-app = Mineswapper()
-app.run()
+
+if "__main__" == __name__:
+    app = Mineswapper()
+    app.run()
