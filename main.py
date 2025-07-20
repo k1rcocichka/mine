@@ -1,7 +1,6 @@
-from src.app import *
-"""Запуск программыs"""
+from src.game import Game
 
 
-if "__main__" == __name__:
-    app = Mineswapper()
-    app.run()
+if __name__ == "__main__":
+    game = Game()
+    game.run()
